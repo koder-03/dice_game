@@ -1,14 +1,14 @@
 body {
-/*   background: linear-gradient(300deg,#15bd3f,#fbfafaf3,  #ff7700 );
+background: linear-gradient(300deg,#35134b,#fbfafaf3,  #3d3a38 );
   background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite; */
+  animation: gradient-animation 18s ease infinite;
   background-color: #393E46;
   margin: 0;
   padding: 0;
   font-family: 'Indie Flower', cursive;
 }
 
-/* @keyframes gradient-animation {
+@keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
@@ -18,7 +18,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-} */
+}
 
 .container {
   width: 90%;
