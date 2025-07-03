@@ -1,9 +1,3 @@
-.play{
-  height: 30px;
-  width: 100px;
-  border-radius: 20%;
-  border: solid;
-}
 body {
   background: linear-gradient(300deg,#15bd3f,#fbfafaf3,  #ff7700 );
   background-size: 180% 180%;
@@ -67,4 +61,21 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#playButton {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #4ECCA3;
+  width: auto;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+}
+
+#playButton:hover {
+  background-color: #3ca88a;
+}
+
 
