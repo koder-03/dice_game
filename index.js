@@ -22,3 +22,13 @@ window.onload = function () {
   }
 
 }
+document.querySelector(".songbutton").addEventListener("click", function () {
+  var audio = document.getElementById("myAudio");
+  if(audio.paused){
+
+      audio.play();
+  }
+  else{
+    audio.pause();
+  }
+});
