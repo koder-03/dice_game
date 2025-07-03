@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Refresh Me</h1>
 
-  </head>
-  <body>
-    <div class="container">
-      <h1>Refresh Me</h1>
-
+    <div class="dice-container">
       <div class="dice">
         <p class="left">Player 1</p>
-        <img class="img1" src="/images/left.png" alt="leftside image"/>
+        <img class="img1" src="images/left.png" alt="leftside image" />
       </div>
 
       <div class="dice">
         <p class="right">Player 2</p>
-        <img class="img2" src="/images/right.png" alt="rightside image"/>
+        <img class="img2" src="images/right.png" alt="rightside image" />
       </div>
     </div>
-    <p class ="result"> lets see who wins</p>
-    <button type="button" id="playButton" style="color: crimson;" class="gradient-background play">PLAY AKKU</button>
-    <br>
-    <button class="songbutton" id="playButton">Play our song</button>
-  <audio id="myAudio" src="/audio/sound.mp3" ></audio>
-    <footer>www 🎲 bhupesh 🎲 com</footer>
-    <script src="index.js"></script>
-  </body>
+
+    <p class="result">Let's see who wins</p>
+
+    <button type="button" class="play">🎲 PLAY AKKU 🎲</button>
+    <button type="button" class="songbutton">Play our song 🎵</button>
+
+    <audio id="myAudio" src="audio/sound.mp3"></audio>
+  </div>
+
+  <footer>www 🎲 bhupesh 🎲 com</footer>
+
+  <script src="index.js"></script>
+</body>
 </html>
